@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI';
+    color: #24292e;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+form {
+    background-color: rgb(246,248,250);
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #eaecef;
+    width: 288px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section input {
+    margin: 1rem 0;
+    border: 1px solid #eaecef;
+    padding: 0.75rem;
+    border-radius: 6px;
+}
+
+section div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0366d6;
+}
+
+form buttom {
+    width: 100%;
+    display: inline-flex;
+    padding:  .6rem 0; 
+    border-radius: 6px;
+    background-color: #2ea44f;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+p {
+    width: 338px;
+    text-align: center;
+    padding: 1.25rem 0;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+}
+
+p a { 
+    font-size: 16px;
+}
+
+/*Hover states*/
+
+buttom, a {
+    transition: all 0.25s ease-in-out;
+}
+
+buttom:hover{
+    background-color: #2c974b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
